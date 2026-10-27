@@ -6,10 +6,10 @@ Authors@R: c(person(given = "Béatrice",
              family = "Maulaz",
              role = c("aut", "cre"), # There must be a "cre", but there can only be one
              email = "s261794@dtu.dk"), 
-             person(given = "firstname",
-             family = "lastname",
+             person(given = "Nikolaj",
+             family = "Krog",
              role = "aut",
-             email = "your@email.com"))
+             email = "s245342@dtu.dk"))
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
 License: MIT + file LICENSE
