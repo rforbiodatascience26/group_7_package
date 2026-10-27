@@ -18,37 +18,35 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of centralDogma07 is to ...
+You can find this package on GitHub: https://github.com/rforbiodatascience26/group_7_package 
 
-## Installation
+This package is an implementation of the central dogma of biology. A sequence of a specified length can be created. It can then be translated and transcribed. The amino acid composition can then be plotted.
 
-You can install the development version of centralDogma07 like so:
+### Functions
+- creating_dna(): create a DNA sequence of the specified length
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
+- to_rna(): translates a DNA sequence into its corresponding RNA sequence
 
-## Example
+- separate_codons(): cuts a sequence into codons of length 3. Default option is to start at the first nucleotide. Specify start parameter to start separating at a different place in the sequence.
 
-This is a basic example which shows you how to solve a common problem:
+- function_4(): translates a list of codons into a sequences of amino acids
 
-```{r example}
-library(centralDogma07)
-## basic example code
-```
+- plot_aa_composition(): plots the aa composition of a sequence.
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+### This package as a whole
+A dna sequence of a specified length can be created using the creating_dna().
+This sequence can then be tranlated to RNA using the function to_rna().
+The RNA sequence is then split into codons of 3 nuclotides by using the function separate_codons(). 
+Codons are then transcribed to amino acids, using the function function_4(). 
+The aa composition can then be ploted using the plot_aa_composition() function.
 
-```{r cars}
-summary(cars)
-```
+#### Note: 
+Could not build pdf version of the vignette. 
+<div style="padding: 10px; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; border-radius: 4px;">
+  <strong>ERROR:</strong> processing vignette 'centralDogma07.Rmd' failed with diagnostics:
+LaTeX failed to compile /net/pupil1/home/people/s261794/projects/centralDogma07/vignettes/centralDogma07.tex. See https://yihui.org/tinytex/r/#debugging for debugging tips. See centralDogma07.log for more info.
+--- failed re-building ‘centralDogma07.Rmd’
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+<strong>SUMMARY</strong>: processing the following file failed:
+  ‘centralDogma07.Rmd’
+</div>
