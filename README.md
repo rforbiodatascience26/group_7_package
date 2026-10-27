@@ -45,9 +45,8 @@ Could not build pdf version of the vignette.
 <div style="padding: 10px; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; border-radius: 4px;">
 
 <strong>ERROR:</strong> processing vignette ‘centralDogma07.Rmd’ failed
-with diagnostics: LaTeX failed to compile
-/net/pupil1/home/people/s261794/projects/centralDogma07/vignettes/centralDogma07.tex.
-See <https://yihui.org/tinytex/r/#debugging> for debugging tips. See
+with diagnostics: LaTeX failed to compile …/centralDogma07.tex. See
+<https://yihui.org/tinytex/r/#debugging> for debugging tips. See
 centralDogma07.log for more info. — failed re-building
 ‘centralDogma07.Rmd’
 
