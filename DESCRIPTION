@@ -2,13 +2,14 @@ Package: centralDogma07
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
+Authors@R: c(person(given = "Béatrice",
+             family = "Maulaz",
+             role = c("aut", "cre"), # There must be a "cre", but there can only be one
+             email = "s261794@dtu.dk"), 
+             person(given = "firstname",
+             family = "lastname",
+             role = "aut",
+             email = "your@email.com"))
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
 License: MIT + file LICENSE
