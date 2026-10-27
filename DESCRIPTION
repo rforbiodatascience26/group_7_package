@@ -9,7 +9,7 @@ Authors@R: c(person(given = "Béatrice",
              person(given = "Nikolaj",
              family = "Krog",
              role = "aut",
-             email = "s245342@dtu.dk"))
+             email = "s245342@dtu.dk"),
              person(given = "Luka",
              family = "Joergensen",
              role = "aut",
@@ -17,7 +17,7 @@ Authors@R: c(person(given = "Béatrice",
              person(given = "Arthur",
              family = "Buis",
              role = "aut",
-             email = "s263500@dtu.dk")
+             email = "s263500@dtu.dk"))
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
 License: MIT + file LICENSE
