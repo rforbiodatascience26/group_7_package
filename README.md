@@ -1,0 +1,57 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# centralDogma07
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+You can find this package on GitHub:
+<https://github.com/rforbiodatascience26/group_7_package>
+
+This package is an implementation of the central dogma of biology. A
+sequence of a specified length can be created. It can then be translated
+and transcribed. The amino acid composition can then be plotted.
+
+### Functions
+
+- creating_dna(): create a DNA sequence of the specified length
+
+- to_rna(): translates a DNA sequence into its corresponding RNA
+  sequence
+
+- separate_codons(): cuts a sequence into codons of length 3. Default
+  option is to start at the first nucleotide. Specify start parameter to
+  start separating at a different place in the sequence.
+
+- function_4(): translates a list of codons into a sequences of amino
+  acids
+
+- plot_aa_composition(): plots the aa composition of a sequence.
+
+### This package as a whole
+
+A dna sequence of a specified length can be created using the
+creating_dna(). This sequence can then be tranlated to RNA using the
+function to_rna(). The RNA sequence is then split into codons of 3
+nuclotides by using the function separate_codons(). Codons are then
+transcribed to amino acids, using the function function_4(). The aa
+composition can then be ploted using the plot_aa_composition() function.
+
+#### Note:
+
+Could not build pdf version of the vignette.
+
+<div style="padding: 10px; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; border-radius: 4px;">
+
+<strong>ERROR:</strong> processing vignette ‘centralDogma07.Rmd’ failed
+with diagnostics: LaTeX failed to compile
+/net/pupil1/home/people/s261794/projects/centralDogma07/vignettes/centralDogma07.tex.
+See <https://yihui.org/tinytex/r/#debugging> for debugging tips. See
+centralDogma07.log for more info. — failed re-building
+‘centralDogma07.Rmd’
+
+<strong>SUMMARY</strong>: processing the following file failed:
+‘centralDogma07.Rmd’
+
+</div>
