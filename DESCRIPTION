@@ -17,9 +17,16 @@ Authors@R: c(person(given = "Béatrice",
              person(given = "Filipos",
              family = "Michoykov",
              role = "aut",
-             email = "s263495@dtu.dk"))
+             email = "s263495@dtu.dk"),
+             person(given = "Arthur",
+             family = "Buis",
+             role = "aut",
+             email = "s263500@dtu.dk"))
 Description: More about what it does (maybe more than one line).
     Continuation lines should be indented.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.2
